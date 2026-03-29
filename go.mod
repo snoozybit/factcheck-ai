@@ -1,4 +1,4 @@
-module github.com/snoozybit/factcheck-ai
+module github.com/snoozybit/lit-fact
 
 go 1.22
 

@@ -653,7 +653,7 @@ func main() {
 	r.GET("/", func(c *gin.Context) { c.File("./static/index.html") })
 	r.POST("/analyze", analyzeHandler)
 
-	log.Printf("🔍 FactCheck AI → http://localhost:%s", port)
+	log.Printf("⚡ lit-fact → http://localhost:%s", port)
 	if err := r.Run(":" + port); err != nil {
 		log.Fatal(err)
 	}
